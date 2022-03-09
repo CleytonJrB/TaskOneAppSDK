@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Shopping"
+      android:textSize="24sp"
+      android:textStyle="bold"/>
+  </LinearLayout>
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:listitem="@layout/card_view_prod" />
+
+    <com.google.android.material.card.MaterialCardView
+      android:id="@+id/materialCardView"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_marginLeft="1.9in"
+      android:layout_marginTop="3.1in"
+      android:backgroundTint="@color/grey_grey"
+      app:cardCornerRadius="20dp">
+
+      <RelativeLayout
+        android:id="@+id/main_fragment_cart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageButton
+          android:id="@+id/proceed_to_cart"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentBottom="true"
+          android:background="@android:color/transparent"
+          android:scaleType="fitCenter"
+          android:src="@drawable/ic_shopping_cart"
+          app:tint="@color/white" />
+
+        <com.google.android.material.card.MaterialCardView
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:layout_margin="8dp"
+          android:backgroundTint="@android:color/holo_red_light"
+          android:elevation="10dp"
+          app:cardCornerRadius="10dp">
+
+          <TextView
+            android:id="@+id/main_fragment_cart_products_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+        </com.google.android.material.card.MaterialCardView>
+      </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+  </RelativeLayout>
+
+</LinearLayout>

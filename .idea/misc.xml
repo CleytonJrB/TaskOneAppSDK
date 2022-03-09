@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/drawable/btn_addnew.xml" value="0.291" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/drawable/btn_confirm.xml" value="0.1745" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/drawable/btn_conner.xml" value="0.291" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/drawable/btn_sheet_handle.xml" value="0.2795" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/drawable/pg_contmodal.xml" value="0.1745" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/layout/card_view_card.xml" value="0.33" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/layout/pg_modal.xml" value="0.33" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/TaskOneSDK/src/main/res/layout/pg_newpaymentmetod.xml" value="0.1" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/drawable/btn_addnew.xml" value="0.17" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/drawable/btn_confirm.xml" value="0.2605" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/drawable/btn_conner.xml" value="0.2605" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/drawable/pg_contmodal.xml" value="0.18" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/layout/card_view_card.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/layout/card_view_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/layout/card_view_prod.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/layout/pg_main.xml" value="0.25" />
+        <entry key="..\:/Users/Cleyt/AndroidStudioProjects/TaskOneAppSDK/app/src/main/res/layout/pg_modal.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
