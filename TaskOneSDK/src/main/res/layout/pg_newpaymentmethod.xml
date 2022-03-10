@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/constrain"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/pg_contmodal">
+
+  <LinearLayout
+    android:id="@+id/hearder_pay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15dp"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:gravity="end">
+
+<!--    <View-->
+<!--      android:id="@+id/NORBr_sdk_view"-->
+<!--      android:layout_width="140dp"-->
+<!--      android:layout_height="3.5dp"-->
+<!--      android:background="@drawable/btn_sheet_handle" />-->
+
+    <ImageButton
+      android:id="@+id/dismiss_add_new_payment_methods"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="0dp"
+      android:padding="4dp"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_close"
+      android:tint="@color/grey_n"
+      android:visibility="visible"
+      tools:ignore="UseAppTint" />
+  </LinearLayout>
+
+  <androidx.cardview.widget.CardView
+    android:id="@+id/main_paymentmethod"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:theme="@style/Widget.MaterialComponents.CardView"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/hearder_pay">
+
+    <RelativeLayout
+      android:id="@+id/header_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="2dp">
+
+
+      <ImageView
+        android:id="@+id/card_form_item_img"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/img_1" />
+
+      <TextView
+        android:id="@+id/card_form_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/card_form_item_img"
+        android:text="@string/payment_card"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+
+      <ImageView
+        android:id="@+id/card_form_item_flags_images"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/img" />
+    </RelativeLayout>
+  </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

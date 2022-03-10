@@ -1,8 +1,6 @@
 package com.example.taskonesdk
 
 import androidx.fragment.app.FragmentManager
-import com.example.taskonesdk.ui.NewPaymentMetod
-
 
 
 object ModalSDK {
@@ -23,7 +21,7 @@ object ModalSDK {
 
 //  public fun addNewMatodPayment(fragmentManager: FragmentManager){
 //
-//    newPaymentMetod.show(fragmentManager,"addnewpaymentmetod")
+//    modal.opennewadd(fragmentManager)
 //
 //  }
 

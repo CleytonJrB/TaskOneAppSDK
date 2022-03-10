@@ -18,14 +18,13 @@ class MainActivity : AppCompatActivity() {
 
   }
 
-
   private fun showBottomSheet() {
 
     ModalSDK.startModal(supportFragmentManager)
-//    binding.root.rootView.postDelayed({ ModalSDK.closeModal() }, 5000)
+//    binding.root.rootView.postDelayed({ ModalSDK.closeModal() }, 6000)
 
   }
-//
+
 //  private fun addNewMetodPayment(){
 //
 //    ModalSDK.addNewMatodPayment(supportFragmentManager)

@@ -5,22 +5,21 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentManager
-import com.example.taskonesdk.databinding.PgNewpaymentmetodBinding
+import com.example.taskonesdk.databinding.PgNewpaymentmethodBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
-internal class NewPaymentMetod : BottomSheetDialogFragment() {
+internal class NewPaymentMethod : BottomSheetDialogFragment() {
 
-  private var _binding: PgNewpaymentmetodBinding? = null
+  private var _binding: PgNewpaymentmethodBinding? = null
   private val binding get() = _binding!!
 
   override fun onCreateView(
     inflater: LayoutInflater,
     container: ViewGroup?,
     savedInstanceState: Bundle?
-  ): View? {
+  ): View {
 
-    _binding = PgNewpaymentmetodBinding.inflate(inflater, container, false)
+    _binding = PgNewpaymentmethodBinding.inflate(inflater, container, false)
 
     return binding.root
 
@@ -29,10 +28,11 @@ internal class NewPaymentMetod : BottomSheetDialogFragment() {
   override fun onActivityCreated(savedInstanceState: Bundle?) {
     super.onActivityCreated(savedInstanceState)
 
+    binding.dismissAddNewPaymentMethods.setOnClickListener { dismiss() }
+
     requireView().layoutParams.height =
       (Resources.getSystem().displayMetrics.heightPixels * 0.85).toInt()
     requireView().requestLayout()
 
   }
-
 }

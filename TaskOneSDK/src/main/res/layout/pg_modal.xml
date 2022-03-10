@@ -4,8 +4,7 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:background="@drawable/pg_contmodal"
-  android:orientation="vertical">
+  android:background="@drawable/pg_contmodal">
 
   <View
     android:id="@+id/NORBr_sdk_view"
@@ -71,16 +70,27 @@
     android:orientation="vertical"
     app:layout_constraintBottom_toBottomOf="parent">
 
-    <Button
-      android:id="@+id/btn_c_addnew"
+    <androidx.cardview.widget.CardView
+      android:id="@+id/main_layout"
       android:layout_width="match_parent"
-      android:layout_height="80dp"
-      android:layout_margin="8dp"
-      android:background="@drawable/btn_addnew"
-      android:text="Add a new payment method"
-      android:textAllCaps="false"
-      android:textColor="@color/black"
-      app:backgroundTint="@null" />
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:padding="10dp"
+      android:theme="@style/Widget.MaterialComponents.CardView"
+      app:cardCornerRadius="5dp"
+      app:cardElevation="4dp">
+
+      <Button
+        android:id="@+id/btn_c_addnew"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Add a new payment method"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/transparent" />
+
+    </androidx.cardview.widget.CardView>
+
 
     <Button
       android:id="@+id/btn_c_confirmpayment"

@@ -1,3 +1,5 @@
 <resources>
   <string name="app_name">TaskOneAppSDK</string>
+  <string name="add_new_payment_method">Add a new payment method</string>
+  <string name="payment_card">Payment Card</string>
 </resources>
