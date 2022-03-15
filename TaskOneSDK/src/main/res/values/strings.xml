@@ -2,4 +2,8 @@
   <string name="app_name">TaskOneAppSDK</string>
   <string name="add_new_payment_method">Add a new payment method</string>
   <string name="payment_card">Payment Card</string>
+  <string name="cvv">CVV</string>
+  <string name="expiry_date">Expiry date</string>
+  <string name="card_number">Card number</string>
+  <string name="save">save for my next payment</string>
 </resources>

@@ -11,4 +11,6 @@
   <color name="grey">#EBEDEF</color>
   <color name="grey_grey">#F2F2F2</color>
   <color name="grey_n">#989898</color>
+  <color name="norbr_sdk_color_active">#D50032</color>
+  <color name="norbr_sdk_color_disable">#80D50032</color>
 </resources>
