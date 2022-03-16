@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
     binding.btnShow.setOnClickListener { showBottomSheeet() }
     Log.d("dwww","Teste")
     Log.d("dwww","Teste Dois")
+    Log.d("dwww","Teste Tres")
+
 
 
   }
