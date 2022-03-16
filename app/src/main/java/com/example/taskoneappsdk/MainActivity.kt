@@ -14,11 +14,11 @@ class MainActivity : AppCompatActivity() {
     binding = ActivityMainBinding.inflate(layoutInflater)
     setContentView(binding.root)
 
-    binding.btnShow.setOnClickListener { showBottomSheet() }
+    binding.btnShow.setOnClickListener { showBottomSheeet() }
 
   }
 
-  private fun showBottomSheet() {
+  private fun showBottomSheeet() {
 
     ModalSDK.startModal(supportFragmentManager)
 //    binding.root.rootView.postDelayed({ ModalSDK.closeModal() }, 6000)
