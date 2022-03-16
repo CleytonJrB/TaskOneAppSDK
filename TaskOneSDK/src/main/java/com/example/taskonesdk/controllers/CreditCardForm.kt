@@ -48,7 +48,7 @@ internal class CreditCardForm(
   private fun hideCardForm() {
     itemBinding.cardFormItemFlagsImages.visibility = View.VISIBLE
     itemBinding.cardFormItemBody.visibility = View.GONE
-    itemBinding.cardFormItemSave.visibility = View.GONE
+    itemBinding.cardFormItemSave.visibility = View.VISIBLE
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
       itemBinding.root.backgroundTintList = ColorStateList.valueOf(Color.WHITE)
