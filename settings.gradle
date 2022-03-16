@@ -13,6 +13,8 @@ dependencyResolutionManagement {
     }
 }
 
+rootProject.name = 'gradle-semantic-build-versioning'
+
 buildscript {
     repositories {
         maven {
