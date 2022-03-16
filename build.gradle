@@ -7,7 +7,7 @@ plugins {
 
 }
 scmVersion {
-    checks {
+     checks {
         uncommittedChanges = false
         aheadOfRemote = false
         snapshotDependencies = false
