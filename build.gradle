@@ -6,6 +6,13 @@ plugins {
     id 'pl.allegro.tech.build.axion-release' version '1.13.6'
 
 }
+scmVersion {
+    checks {
+        uncommittedChanges = false
+        aheadOfRemote = false
+        snapshotDependencies = false
+    }
+}
 
 project.version = scmVersion.version
 
