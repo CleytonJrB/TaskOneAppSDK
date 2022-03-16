@@ -2,6 +2,7 @@ package com.example.taskoneappsdk
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.taskoneappsdk.databinding.ActivityMainBinding
 import com.example.taskonesdk.ModalSDK
 
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     setContentView(binding.root)
 
     binding.btnShow.setOnClickListener { showBottomSheeet() }
+    Log.d("dwww","Teste")
 
   }
 

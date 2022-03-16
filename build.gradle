@@ -7,7 +7,9 @@ plugins {
 
 }
 
-version = scmVersion.version
+project.version = scmVersion.version
+
+//version = scmVersion.version
 
 task clean(type: Delete) {
     delete rootProject.buildDir
