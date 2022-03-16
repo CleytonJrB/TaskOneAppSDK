@@ -38,7 +38,7 @@ internal class ModalMainSDK : BottomSheetDialogFragment() {
     context?.setTheme(R.style.Theme_TaskOneSDK)
 
     requireView().layoutParams.height =
-      (Resources.getSystem().displayMetrics.heightPixels * 0.85).toInt()
+      (Resources.getSystem().displayMetrics.heightPixels * 0.88).toInt()
     requireView().requestLayout()
 
     binding.btnCAddnew.setOnClickListener { opennewadd() }
