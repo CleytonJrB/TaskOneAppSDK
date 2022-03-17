@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
     Log.d("dwww","Teste Dois")
     Log.d("dwww","Teste Tres")
     Log.d("dwww","Teste Quatro")
-
-
+    Log.d("dwww","Teste eita")
+    Log.d("dwww","Teste Rynalde")
 
 
   }
