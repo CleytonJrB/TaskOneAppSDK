@@ -7,11 +7,11 @@ plugins {
 }
 scmVersion {
 
-//     checks {
-//        uncommittedChanges = false
-//        aheadOfRemote = false
-//        snapshotDependencies = false
-//    }
+     checks {
+        uncommittedChanges = true
+        aheadOfRemote = false
+        snapshotDependencies = false
+    }
 //    versionIncrementer 'incrementPatch'
 //    versionIncrementer 'incrementMinor'
 //    versionIncrementer 'incrementMajor'
