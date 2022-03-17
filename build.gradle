@@ -6,9 +6,8 @@ plugins {
     id 'pl.allegro.tech.build.axion-release' version '1.13.6'
 }
 scmVersion {
-    nextVersion {
-        suffix = 'Android'
-        separator = '-'
+    repository {
+        pushTagsOnly = true
     }
      checks {
         uncommittedChanges = true
