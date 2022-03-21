@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
     Log.d("dwww","Teste teste gradle semantic")
     Log.d("dwww","Teste teste pz")
     Log.d("dwww","Teste teste p2")
-
-
+    Log.d("dwww","Teste teste p3")
+    
   }
 
   private fun showBottomSheeet() {
