@@ -23,6 +23,9 @@ class MainActivity : AppCompatActivity() {
     Log.d("dwww","Teste eita")
     Log.d("dwww","Teste Rynalde")
     Log.d("dwww","Teste Cleyson")
+    Log.d("dwww","Teste teste Tag")
+    Log.d("dwww","Teste teste gradle semantic")
+    Log.d("dwww","Teste teste pz")
 
   }
 

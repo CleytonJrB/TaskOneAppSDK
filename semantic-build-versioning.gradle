@@ -1,15 +1,14 @@
 
-
-startingVersion = '2.3.34'
-
-
 tagPrefix = 'v'
 
+startingVersion = '1.1.1'
 
 snapshotSuffix = 'Android'
 
 autobump {
-    majorPattern = ~/(?m)^\[bump-major\]$/ //#match "[bump-major]" on its own line without leading or trailing characters
-    minorPattern = ~/(?m)^\[bump-minor\]$/ //#match "[bump-minor]" on its own line without leading or trailing characters
-    patchPattern = ~/(?m)^\[bump-patch\]$/ //#match "[bump-patch]" on its own line without leading or trailing characters
+    majorPattern = ~/(?m)^\[bump-major\]$/                     //# match "[bump-major]" on its own line without leading or trailing characters
+    minorPattern = ~/(?m)^\[bump-minor\]$/                     //# match "[bump-minor]" on its own line without leading or trailing characters
+    patchPattern = ~/(?m)^\[bump-patch\]$/                     //# match "[bump-patch]" on its own line without leading or trailing characters
+    newPreReleasePattern = ~/(?m)^\[make-new-pre-release\]$/   //# match "[make-new-pre-release]" on its own line without leading or trailing characters
+    promoteToReleasePattern = ~/(?m)^\[promote-to-release\]$/  //# match "[promote-to-release]" on its own line without leading or trailing characters
 }

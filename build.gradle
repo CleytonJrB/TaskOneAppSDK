@@ -16,7 +16,7 @@ scmVersion {
 //    versionIncrementer 'incrementMajor'
 }
 
-project.version = scmVersion.version
+project.version = "$scmVersion.version-Android"
 
 //version = scmVersion.version
 
