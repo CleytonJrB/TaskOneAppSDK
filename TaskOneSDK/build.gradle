@@ -33,9 +33,6 @@ android {
     dataBinding{
         enabled = true
     }
-    subprojects {
-        version = rootProject.version
-    }
 }
 
 dependencies {

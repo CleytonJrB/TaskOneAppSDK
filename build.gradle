@@ -21,14 +21,10 @@ scmVersion {
 //    versionIncrementer 'incrementMajor'
 }
 
-project.version = scmVersion.version
+project.version = "2.3.34-SNAPSHOT"
 
 //version = scmVersion.version
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
-
-subprojects {
-    version = rootProject.version
 }
