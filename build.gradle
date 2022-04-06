@@ -21,7 +21,7 @@ scmVersion {
 //    versionIncrementer 'incrementMajor'
 }
 
-project.version = "2.3.34-SNAPSHOT"
+project.version = scmVersion.version
 
 //version = scmVersion.version
 
